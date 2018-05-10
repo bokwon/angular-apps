@@ -5,6 +5,7 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .todo-checkbox {
@@ -23,4 +24,8 @@
 
 .btn-red:hover {
   background: darkred;
+}
+
+.todo-complete {
+    text-decoration: line-through;
 }
